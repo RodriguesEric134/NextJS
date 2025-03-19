@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/conap/OneDrive/Documentos/Estudo-Eric/NextJS/src/app/users/route.ts"],"sourcesContent":["export const users = [\r\n    { id: 1, name: \"Eric Rodrigues\" },\r\n    { id: 2, name: \"John Doe\" },\r\n];\r\n\r\nexport async function GET() {\r\n    return Response.json(users);\r\n}\r\n\r\nexport async function POST(request: Request) {\r\n    const user = await request.json(); // Adicione 'await' aqui\r\n\r\n    const newUser = {\r\n        id: users.length + 1,\r\n        name: user.name,\r\n    };\r\n\r\n    users.push(newUser);\r\n\r\n    return new Response(JSON.stringify(newUser), {\r\n        headers: {\r\n            \"Content-Type\": \"application/json\",\r\n        },\r\n        status: 201,\r\n    });\r\n}\r\n"],"names":[],"mappings":";;;;;AAAO,MAAM,QAAQ;IACjB;QAAE,IAAI;QAAG,MAAM;IAAiB;IAChC;QAAE,IAAI;QAAG,MAAM;IAAW;CAC7B;AAEM,eAAe;IAClB,OAAO,SAAS,IAAI,CAAC;AACzB;AAEO,eAAe,KAAK,OAAgB;IACvC,MAAM,OAAO,MAAM,QAAQ,IAAI,IAAI,wBAAwB;IAE3D,MAAM,UAAU;QACZ,IAAI,MAAM,MAAM,GAAG;QACnB,MAAM,KAAK,IAAI;IACnB;IAEA,MAAM,IAAI,CAAC;IAEX,OAAO,IAAI,SAAS,KAAK,SAAS,CAAC,UAAU;QACzC,SAAS;YACL,gBAAgB;QACpB;QACA,QAAQ;IACZ;AACJ","debugId":null}}]
+}
