@@ -1,5 +1,17 @@
 {
-  "node": {},
+  "node": {
+    "4057d9d5ab0ba6137258fc4f8aa39e6cabdd5c7ece": {
+      "workers": {
+        "app/mock-users/page": {
+          "moduleId": "[project]/.next-internal/server/app/mock-users/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/mock-users/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/mock-users/page": "rsc"
+      }
+    }
+  },
   "edge": {},
   "encryptionKey": "Zhz6j8C1VD/ko3FNncIyeMdayBeCS4En+7w/G3FcQNU="
 }
