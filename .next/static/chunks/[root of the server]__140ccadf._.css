@@ -520,6 +520,10 @@
     flex-shrink: 1;
   }
 
+  .shrink {
+    flex-shrink: 1;
+  }
+
   .border-collapse {
     border-collapse: collapse;
   }
@@ -594,6 +598,12 @@
     margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)));
   }
 
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .rounded {
     border-radius: .25rem;
   }
@@ -646,10 +656,6 @@
 
   .bg-foreground {
     background-color: var(--foreground);
-  }
-
-  .bg-gray-100 {
-    background-color: var(--color-gray-100);
   }
 
   .bg-slate-900 {

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/conap/OneDrive/Documentos/Estudo-Eric/NextJS/src/app/users-server/error.tsx"],"sourcesContent":["\"use client\"\r\n\r\nimport { useEffect } from \"react\"\r\n\r\nexport default function Error({ error }: {error: Error}) {\r\n    useEffect(() => {\r\n        console.log(error)\r\n    }, [error]);\r\n\r\n    return (\r\n        <div className=\"flex items-center justify-center h-screen\">\r\n            <div className=\"text-2xl text-red-500\">Erro ao buscar dados de usuário </div>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;AAEA;;;AAFA;;AAIe,SAAS,MAAM,EAAE,KAAK,EAAkB;;IACnD,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;2BAAE;YACN,QAAQ,GAAG,CAAC;QAChB;0BAAG;QAAC;KAAM;IAEV,qBACI,6LAAC;QAAI,WAAU;kBACX,cAAA,6LAAC;YAAI,WAAU;sBAAwB;;;;;;;;;;;AAGnD;GAVwB;KAAA","debugId":null}}]
-}

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file://C%3A/LPPGN/EstudoAluraNextJS/01-fullstack-nextjs/curso-next-js/src/app/components/counter.tsx"],"sourcesContent":["\"use client\";\r\nimport { useState } from \"react\";\r\n\r\nexport const Counter = () => {\r\n    console.log(\"Counter component\");\r\n    const [count, setCount] = useState(0);\r\n\r\n    return (\r\n        <button onClick={() => setCount(count + 1)}> Clicked {count} times</button>\r\n    );\r\n};\r\n\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGO,MAAM,UAAU;IACnB,QAAQ,GAAG,CAAC;IACZ,MAAM,CAAC,OAAO,SAAS,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE;IAEnC,qBACI,8OAAC;QAAO,SAAS,IAAM,SAAS,QAAQ;;YAAI;YAAU;YAAM;;;;;;;AAEpE","debugId":null}}]
-}
